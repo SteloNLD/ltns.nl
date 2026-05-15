@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <meta name="description" content="{% block description %}{{ config.title }}{% endblock description %}">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">ltns.nl</a> ·
+      <a href="/notes">Notes</a> ·
+      <a href="/projects">Projects</a> ·
+      <a href="/sources">Sources</a> ·
+      <a href="/now">Now</a> ·
+      <a href="/about">About</a>
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock content %}
+  </main>
+  <footer>
+    <p><a href="mailto:sten@ltns.nl">sten@ltns.nl</a></p>
+  </footer>
+</body>
+</html>

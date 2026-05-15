@@ -1,0 +1,43 @@
+{
+  "name": "ltns.nl",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "extended": true,
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "./features/zola": {
+      "version": "0.22.1"
+    },
+    "./features/obsidian-export": {
+      "version": "25.3.0"
+    }
+  },
+  "mounts": [
+    "source=${localEnv:HOME}/.claude,target=/home/vscode/.claude,type=bind",
+    "source=${localEnv:HOME}/.config/gh,target=/home/vscode/.config/gh,type=bind"
+  ],
+  "forwardPorts": [1111, 1313],
+  "portsAttributes": {
+    "1111": { "label": "Zola" },
+    "1313": { "label": "Hugo" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropic.claude-code",
+        "budparr.language-hugo-vscode",
+        "tamasfe.even-better-toml",
+        "ms-python.python",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  }
+}

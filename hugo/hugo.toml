@@ -1,0 +1,7 @@
+baseURL = "https://ltns.nl"
+languageCode = "en"
+title = "ltns.nl"
+
+[markup]
+  [markup.highlight]
+    style = "github"

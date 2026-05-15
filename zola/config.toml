@@ -1,0 +1,7 @@
+base_url = "https://ltns.nl"
+title = "ltns.nl"
+compile_sass = false
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"

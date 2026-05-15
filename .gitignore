@@ -1,0 +1,25 @@
+# Git internals (iCloud trick)
+.git.nosync.noindex/
+
+# Obsidian config
+.obsidian/
+
+# SSG generated content (copied at build time from content/)
+hugo/content/
+zola/content/
+quartz/content/
+
+# SSG static (copied at build time from static/)
+hugo/static/
+zola/static/
+
+# SSG build output
+hugo/public/
+zola/public/
+quartz/public/
+
+# Node (Quartz)
+node_modules/
+
+# macOS
+.DS_Store
