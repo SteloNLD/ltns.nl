@@ -13,10 +13,10 @@
       "version": "3.12"
     },
     "ghcr.io/devcontainers/features/github-cli:1": {},
-    "./features/zola": {
+    "ghcr.io/stelonld/devcontainer-features/zola:1": {
       "version": "0.22.1"
     },
-    "./features/obsidian-export": {
+    "ghcr.io/stelonld/devcontainer-features/obsidian-export:1": {
       "version": "25.3.0"
     }
   },
