@@ -1,3 +1,36 @@
 base_url = "https://ltns.nl"
 title = "ltns.nl"
 compile_sass = false
+theme = "papermod_2"
+
+taxonomies = [{ name = "tags", feed = true }]
+
+[extra.papermod]
+title = "ltns.nl"
+default_theme = "auto"
+theme = "light"
+language_direction = "ltr"
+keywords = []
+show_theme_toggle = true
+show_scroll_to_top = true
+show_code_copy_buttons = true
+show_reading_time = true
+show_post_nav_links = true
+show_post_meta = true
+default_toc_open = false
+date_format = "%Y-%m-%d"
+
+home_title = "ltns.nl"
+home_content = "A digital garden — notes, projects, and things I've learned."
+
+navigation = [
+    { url = "/notes", title = "Notes" },
+    { url = "/projects", title = "Projects" },
+    { url = "/sources", title = "Sources" },
+    { url = "/now", title = "Now" },
+    { url = "/about", title = "About" },
+]
+
+social_icons = [
+    { url = "mailto:sten@ltns.nl", title = "Email", icon = "email" },
+]

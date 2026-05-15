@@ -1,6 +1,49 @@
 baseURL = "https://ltns.nl"
-languageCode = "en"
+locale = "en"
 title = "ltns.nl"
+theme = ["PaperMod"]
+enableRobotsTXT = true
+
+[params]
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+
+[params.homeInfoParams]
+Title = "ltns.nl"
+Content = "A digital garden — notes, projects, and things I've learned."
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:sten@ltns.nl"
+
+[[menus.main]]
+name = "Notes"
+url = "/notes"
+weight = 10
+
+[[menus.main]]
+name = "Projects"
+url = "/projects"
+weight = 20
+
+[[menus.main]]
+name = "Sources"
+url = "/sources"
+weight = 30
+
+[[menus.main]]
+name = "Now"
+url = "/now"
+weight = 40
+
+[[menus.main]]
+name = "About"
+url = "/about"
+weight = 50
 
 [markup]
   [markup.highlight]
