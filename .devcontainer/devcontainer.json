@@ -24,6 +24,7 @@
     "source=${localEnv:HOME}/.claude,target=/home/vscode/.claude,type=bind",
     "source=${localEnv:HOME}/.config/gh,target=/home/vscode/.config/gh,type=bind"
   ],
+  "postStartCommand": "bash ci/start.sh",
   "forwardPorts": [1111, 1313],
   "portsAttributes": {
     "1111": { "label": "Zola" },
