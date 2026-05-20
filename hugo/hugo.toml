@@ -1,6 +1,6 @@
 baseURL = "https://ltns.nl"
 locale = "en"
-title = "ltns.nl"
+title = "Digital Garden"
 theme = ["PaperMod"]
 enableRobotsTXT = true
 
