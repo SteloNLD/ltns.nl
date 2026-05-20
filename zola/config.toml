@@ -1,5 +1,5 @@
 base_url = "https://ltns.nl"
-title = "Sten Lootens"
+title = "ltns.nl"
 author = "Sten Lootens"
 compile_sass = false
 theme = "papermod_2"
@@ -7,7 +7,7 @@ theme = "papermod_2"
 taxonomies = [{ name = "tags", feed = true }]
 
 [extra.papermod]
-title = "Sten Lootens"
+title = "ltns.nl"
 default_theme = "auto"
 theme = "light"
 language_direction = "ltr"
