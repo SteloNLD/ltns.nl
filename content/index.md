@@ -1,5 +1,5 @@
 ---
-title: Sten Lootens
+title: "Hi, I'm Sten"
 ---
 
 Hi, I'm Sten -- IT professional from the Netherlands.
