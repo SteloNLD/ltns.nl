@@ -4,6 +4,10 @@
 # Obsidian config
 .obsidian/
 
+# Private content (never committed)
+content/inbox/
+content/journal/
+
 # SSG generated content (copied at build time from content/)
 hugo/content/
 zola/content/
