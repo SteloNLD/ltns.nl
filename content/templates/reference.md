@@ -1,14 +1,14 @@
 ---
 title: {{title}}
-author: 
 date: {{date}}
-type: book
 tags: []
-link: 
+type: 
+author: 
+url: 
 ---
 
-## What it is
+## Summary
 
-## Key takeaways
+## Key ideas
 
 ## Related notes

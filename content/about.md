@@ -8,13 +8,12 @@ description: About Sten and this site
 
 Hi, I'm Sten.
 
-I work in IT and this is my digital garden — a collection of notes, projects, and things I've learned. It's a work in progress, intentionally.
+I work in IT and this is my digital garden — a place where I tend notes on things I'm learning and thinking about. It's intentionally a work in progress.
 
 ## What you'll find here
 
-- **Notes** — atomic ideas and things I've learned, mostly around IT and infrastructure
-- **Projects** — homelab and other technical projects I'm working on
-- **Sources** — books, articles, talks and events that shaped my thinking
+- **Notes** — atomic evergreen ideas, mostly around IT, homelab, simracing, and travel
+- **References** — books, articles, talks, and other sources that shaped my thinking
 
 ## Contact
 

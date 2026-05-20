@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 CONTENT_SRC = ROOT / "content"
 STATIC_SRC = ROOT / "static"
-SECTIONS = ["notes", "projects", "sources"]
+SECTIONS = ["notes", "references"]
 
 
 def generate_index_files(dst: Path) -> None:
