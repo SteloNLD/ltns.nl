@@ -4,3 +4,6 @@
 [submodule "zola/themes/papermod_2"]
 	path = zola/themes/papermod_2
 	url = https://github.com/SteloNLD/zola-theme-papermod-2.git
+[submodule "quartz"]
+	path = quartz
+	url = https://github.com/SteloNLD/quartz.git
