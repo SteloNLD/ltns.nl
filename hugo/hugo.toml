@@ -1,5 +1,5 @@
 baseURL = "https://ltns.nl"
-locale = "en"
+languageCode = "en"
 title = "Digital Garden"
 copyright = "© 2026 [Sten Lootens](/)"
 theme = ["PaperMod"]
@@ -7,6 +7,7 @@ enableRobotsTXT = true
 
 [params]
 author = "Sten Lootens"
+description = "A digital garden by Sten Lootens — notes on homelab, simracing, and travel."
 mainSections = []
 defaultTheme = "auto"
 ShowReadingTime = true

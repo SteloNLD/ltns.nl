@@ -1,5 +1,6 @@
 base_url = "https://ltns.nl"
 title = "Digital Garden"
+description = "A digital garden by Sten Lootens — notes on homelab, simracing, and travel."
 author = "Sten Lootens"
 compile_sass = false
 theme = "papermod_2"
