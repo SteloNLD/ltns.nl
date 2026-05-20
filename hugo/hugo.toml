@@ -1,10 +1,11 @@
 baseURL = "https://ltns.nl"
 locale = "en"
-title = "ltns.nl"
+title = "Sten Lootens"
 theme = ["PaperMod"]
 enableRobotsTXT = true
 
 [params]
+mainSections = []
 defaultTheme = "auto"
 ShowReadingTime = true
 ShowShareButtons = false
@@ -13,12 +14,20 @@ ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 
 [params.homeInfoParams]
-Title = "ltns.nl"
-Content = "A digital garden — notes, projects, and things I've learned."
+Title = "Hi, I'm Sten"
+Content = "IT professional from the Netherlands. This is my [digital garden](/notes/how-this-garden-works) — a place where I tend notes on things I'm learning: homelab, simracing, and travel."
 
 [[params.socialIcons]]
 name = "email"
 url = "mailto:sten@ltns.nl"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/SteloNLD"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/stenlootens/"
 
 [[menus.main]]
 name = "Notes"
@@ -26,24 +35,19 @@ url = "/notes"
 weight = 10
 
 [[menus.main]]
-name = "Projects"
-url = "/projects"
+name = "References"
+url = "/references"
 weight = 20
-
-[[menus.main]]
-name = "Sources"
-url = "/sources"
-weight = 30
 
 [[menus.main]]
 name = "Now"
 url = "/now"
-weight = 40
+weight = 30
 
 [[menus.main]]
 name = "About"
 url = "/about"
-weight = 50
+weight = 40
 
 [markup]
   [markup.highlight]

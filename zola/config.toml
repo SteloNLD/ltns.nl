@@ -1,12 +1,13 @@
 base_url = "https://ltns.nl"
-title = "ltns.nl"
+title = "Sten Lootens"
+author = "Sten Lootens"
 compile_sass = false
 theme = "papermod_2"
 
 taxonomies = [{ name = "tags", feed = true }]
 
 [extra.papermod]
-title = "ltns.nl"
+title = "Sten Lootens"
 default_theme = "auto"
 theme = "light"
 language_direction = "ltr"
@@ -20,17 +21,18 @@ show_post_meta = true
 default_toc_open = false
 date_format = "%Y-%m-%d"
 
-home_title = "ltns.nl"
-home_content = "A digital garden — notes, projects, and things I've learned."
+home_title = "Hi, I'm Sten"
+home_content = "IT professional from the Netherlands. This is my [digital garden](/notes/how-this-garden-works) — a place where I tend notes on things I'm learning: homelab, simracing, and travel."
 
 navigation = [
     { url = "/notes", title = "Notes" },
-    { url = "/projects", title = "Projects" },
-    { url = "/sources", title = "Sources" },
+    { url = "/references", title = "References" },
     { url = "/now", title = "Now" },
     { url = "/about", title = "About" },
 ]
 
 social_icons = [
     { url = "mailto:sten@ltns.nl", title = "Email", icon = "email" },
+    { url = "https://github.com/SteloNLD", title = "GitHub", icon = "github" },
+    { url = "https://www.linkedin.com/in/stenlootens/", title = "LinkedIn", icon = "linkedin" },
 ]
