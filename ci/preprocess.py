@@ -46,10 +46,8 @@ def preprocess(target: str) -> None:
             ["obsidian-export", str(CONTENT_SRC), str(dst)],
             check=True,
         )
-        # Hugo and Zola use _index.md for the home page
-        index = dst / "index.md"
-        if index.exists():
-            index.rename(dst / "_index.md")
+        # index.md is Quartz-only; Hugo/Zola use config-based home pages
+        (dst / "index.md").unlink(missing_ok=True)
         generate_index_files(dst)
 
     static_dst = ROOT / target / "static"

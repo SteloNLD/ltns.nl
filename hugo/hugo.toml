@@ -13,6 +13,10 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 
+[params.homeInfoParams]
+Title = "Hi, I'm Sten"
+Content = "IT professional from the Netherlands. This is my [digital garden](/notes/how-this-garden-works) — a place where I tend notes on things I'm learning: homelab, simracing, and travel."
+
 [[params.socialIcons]]
 name = "email"
 url = "mailto:sten@ltns.nl"
