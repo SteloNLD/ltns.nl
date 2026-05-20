@@ -1,7 +1,7 @@
 baseURL = "https://ltns.nl"
 locale = "en"
 title = "Digital Garden"
-copyright = "Sten Lootens"
+copyright = "© 2026 [Sten Lootens](/)"
 theme = ["PaperMod"]
 enableRobotsTXT = true
 
