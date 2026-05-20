@@ -30,18 +30,23 @@ def generate_index_files(dst: Path) -> None:
         root_index.write_text("---\ntitle: ltns.nl\n---\n")
 
 
+QUARTZ_IGNORE = shutil.ignore_patterns("templates", "inbox", "journal")
+
+
 def preprocess(target: str) -> None:
     dst = ROOT / target / "content"
     if dst.exists():
         shutil.rmtree(dst)
-    dst.mkdir(parents=True)
 
-    subprocess.run(
-        ["obsidian-export", str(CONTENT_SRC), str(dst)],
-        check=True,
-    )
-
-    generate_index_files(dst)
+    if target == "quartz":
+        shutil.copytree(CONTENT_SRC, dst, ignore=QUARTZ_IGNORE)
+    else:
+        dst.mkdir(parents=True)
+        subprocess.run(
+            ["obsidian-export", str(CONTENT_SRC), str(dst)],
+            check=True,
+        )
+        generate_index_files(dst)
 
     static_dst = ROOT / target / "static"
     if static_dst.exists():
@@ -52,7 +57,7 @@ def preprocess(target: str) -> None:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2 or sys.argv[1] not in ("hugo", "zola"):
-        print("Usage: preprocess.py <hugo|zola>")
+    if len(sys.argv) != 2 or sys.argv[1] not in ("hugo", "zola", "quartz"):
+        print("Usage: preprocess.py <hugo|zola|quartz>")
         sys.exit(1)
     preprocess(sys.argv[1])

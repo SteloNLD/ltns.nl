@@ -25,10 +25,11 @@
     "source=${localEnv:HOME}/.config/gh,target=/home/vscode/.config/gh,type=bind"
   ],
   "postStartCommand": "bash ci/start.sh",
-  "forwardPorts": [1111, 1313],
+  "forwardPorts": [1111, 1313, 8080],
   "portsAttributes": {
     "1111": { "label": "Zola" },
-    "1313": { "label": "Hugo" }
+    "1313": { "label": "Hugo" },
+    "8080": { "label": "Quartz" }
   },
   "customizations": {
     "vscode": {

@@ -16,6 +16,7 @@ quartz/content/
 # SSG static (copied at build time from static/)
 hugo/static/
 zola/static/
+quartz/static/
 
 # SSG build output
 hugo/public/
