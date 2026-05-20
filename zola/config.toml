@@ -21,9 +21,6 @@ show_post_meta = true
 default_toc_open = false
 date_format = "%Y-%m-%d"
 
-home_title = "Hi, I'm Sten"
-home_content = "IT professional from the Netherlands. This is my [digital garden](/notes/how-this-garden-works) — a place where I tend notes on things I'm learning: homelab, simracing, and travel."
-
 navigation = [
     { url = "/notes", title = "Notes" },
     { url = "/references", title = "References" },
