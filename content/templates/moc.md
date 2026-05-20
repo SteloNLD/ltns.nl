@@ -3,7 +3,10 @@ title: {{title}}
 date: {{date}}
 lastmod: {{date}}
 tags: []
-stage: seedling
-description: 
 ---
 
+## Notes
+
+## References
+
+## Related
