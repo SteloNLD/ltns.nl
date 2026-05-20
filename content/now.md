@@ -8,9 +8,12 @@ description: What I'm doing now
 
 *Last updated: May 2026*
 
-What I'm currently focused on:
+## Active projects
 
 - Building this site
+
+## Areas
+
 - ...
 
 ---
